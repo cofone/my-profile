@@ -1,0 +1,134 @@
+body {
+	background-color: #F6F9FC;
+	color: #525F7F;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+	}
+
+h1	{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	letter-spacing: 2px;
+	font-size: 52px;
+	color: ##525F7F;
+	}
+
+h2, h3, h4	{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #24B47E;
+	font-weight: 500;
+	}
+
+a	{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	}
+a:hover {
+	color: black;
+	}
+
+img	{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	}
+
+
+
+/* Custom design */
+.container	{
+	width: 700px;
+	margin: 30px auto;
+}
+
+.card-white	{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	text-align: center;
+	width: 600px;
+	margin: 30px auto;
+}
+
+.card-white:hover {
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+		margin: 30px auto;
+	}
+	.card-white {
+		width: 420px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 400px;
+		margin: 30px auto;
+	}
+	.card-white {
+		width: 320px;
+	}
+}
+
+.img-circle	{
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #304AA0;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	color: white;
+	background-color: black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+ 	font-size: 50px;
+ 	color: rgb(230, 230, 230);
+ }
+
+ .list-inline i:hover {
+ 	color: rgb(30, 30, 30);
+ }
+
+/* design adjustment with id */
+#introduction p {
+	margin-bottom: 40px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
